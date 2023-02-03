@@ -1,0 +1,2 @@
+part_1b
+-DCATKIN_DEVEL_PREFIX=/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/install -G Unix Makefiles

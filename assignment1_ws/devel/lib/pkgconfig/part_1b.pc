@@ -1,0 +1,8 @@
+prefix=/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/devel
+
+Name: part_1b
+Description: Description of part_1b
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
