@@ -1,2 +1,2 @@
-part_1b
+part_1b:part_1c:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
 -DCATKIN_DEVEL_PREFIX=/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/install -G Unix Makefiles

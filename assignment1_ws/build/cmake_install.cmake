@@ -131,7 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/build/gtest/cmake_install.cmake")
+  include("/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/build/part_1c/cmake_install.cmake")
+  include("/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
   include("/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/build/part_1b/cmake_install.cmake")
+  include("/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
+  include("/home/gbbyrd/Desktop/Code/School/AuE8230Spring23_GraysonByrd/assignment1_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
 
 endif()
 
