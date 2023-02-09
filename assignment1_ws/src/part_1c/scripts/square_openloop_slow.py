@@ -16,8 +16,8 @@ class Square_Openloop():
         self.velocity_publisher = rospy.Publisher('/cmd_vel', Twist)
         self.vel_msg = Twist()
         
-        self.linear_vel = 0.25
-        self.angular_vel = -0.25
+        self.linear_vel = 0.15
+        self.angular_vel = -0.15
         
         # Set velocity
         self.vel_msg.linear.x = 0
@@ -70,6 +70,7 @@ class Square_Openloop():
         rospy.sleep(1)
                 
 if __name__ == '__main__':
+    print('Square Open Loop Slow Running!')
     move = Square_Openloop()
     move.move_in_square()
             

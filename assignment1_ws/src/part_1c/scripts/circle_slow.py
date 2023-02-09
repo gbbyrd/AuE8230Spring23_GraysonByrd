@@ -37,6 +37,7 @@ class Circle():
         rospy.sleep(1)
 
 if __name__ == '__main__':
+    print('Circle Slow Running!')
     circle = Circle()
     try:
         circle.move_in_circle()
